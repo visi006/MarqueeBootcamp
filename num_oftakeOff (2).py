@@ -13,10 +13,10 @@
 #Airline 3 flies every f3 days
 
 
-nod = int(input())
-f1 = int(input())
-f2 = int(input())
-f3 = int(input())
+nod = int(input())   # Takes input values
+f1 = int(input())    #Total number of days  and Three flight intervals
+f2 = int(input())     #Total number of days  and Three flight intervals
+f3 = int(input())     #Total number of days  and Three flight intervals
 res=0
 for day in range ( 1, nod+1):
     divCtr=0
@@ -25,4 +25,5 @@ for day in range ( 1, nod+1):
     if day % f3 == 0 : divCtr+=1
     if divCtr == 1: res+=1
 print(res)
+
 
