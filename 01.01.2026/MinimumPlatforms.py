@@ -41,8 +41,8 @@ def minimum_platforms(arr, dep):
 
 
 # Example usage
-arr = [900, 940, 950, 1100, 1500, 1800]
-dep = [910, 1200, 1120, 1130, 1900, 2000]
+arr = [09:00, 09:40, 09:50, 11:00, 15:00, 18:00]
+dep = [09:10, 12:00, 11:20, 11:30, 19:00, 20:00]
 
 print(minimum_platforms(arr, dep))  # Output: 3
 
