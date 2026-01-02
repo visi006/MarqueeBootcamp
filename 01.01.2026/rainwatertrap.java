@@ -1,3 +1,4 @@
+
 Problem Statement:
   Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
 Refer Leetcode Problem 42
@@ -63,6 +64,7 @@ class Solution {
         return ans;
     }
 }
-  
+
+Basically we are using two pointer prefix array technique for solving this problem.
   
 
