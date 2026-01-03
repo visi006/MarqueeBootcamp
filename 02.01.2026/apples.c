@@ -3,6 +3,8 @@
 
 
 
+C Code for the given problem statement :
+
 
 #include<stdio.h>
 
