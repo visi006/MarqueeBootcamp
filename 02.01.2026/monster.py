@@ -17,3 +17,5 @@ Initial experience level is 123 points. Defeat the first monster having power of
 Input 3 101 100 304 100 1 523
 Output 2
 
+the python code of the above problem statement is given by:
+
