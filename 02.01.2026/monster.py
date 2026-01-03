@@ -19,3 +19,58 @@ Output 2
 
 the python code of the above problem statement is given by:
 
+take input
+qsort( data, noe, sizeof every element, cmp(elem1, elem2)
+into ds
+
+4                int
+100              int 
+110              []
+100
+250
+200
+100              []
+100
+50
+10
+make two list into list of tuple
+
+sort
+
+sorted 
+
+'''
+
+
+
+nom = int(input())
+init_energy = int(input())
+iter_energy = 0
+iter_bonus = 0
+ener = []
+bonu = []
+for iter_energy in range( 0, nom):
+    ener.append(int(input()))
+for iter_bonus in range( 0, nom):
+    bonu.append(int(input()))
+tupl_list = list ( zip(ener,bonu))
+print(tupl_list)
+sorted_list = sorted( tupl_list, key = lambda data: (data[0],-data[1]))
+print(sorted_list)
+killed_mon = 0
+for tup in sorted_list:
+    if init_energy >= tup[0]:
+        init_energy+= tup[1]
+        killed_mon+=1
+print(killed_mon)        
+
+
+
+
+
+
+
+
+
+
+
