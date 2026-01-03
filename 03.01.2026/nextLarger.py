@@ -5,3 +5,4 @@ Input
 Output
 [2763,961235,-1,   54855446]
 
+Python code for the given problem statement :
