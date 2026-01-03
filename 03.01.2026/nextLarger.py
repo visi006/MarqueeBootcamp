@@ -1,1 +1,7 @@
+Given an array of integers arr[] of length n representing non-negative integers, return the array that contains the find the smallest possible number greater than the given number by rearranging its digits of the number, if it is not possible the result will be -1
+
+Input
+[2736,956321,65421,54854654]
+Output
+[2763,961235,-1,   54855446]
 
