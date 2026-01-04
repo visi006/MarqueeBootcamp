@@ -1,3 +1,7 @@
+
+JAVA CODE FOR FINDING POLYDIV VALUE
+
+
 //12 17 12:26
 // 6513 base 8
 // 3 * 8^0 +  1	*8^1 + 5 * 8^2 + 6 * 8^3
