@@ -1,3 +1,6 @@
+
+
+JAVA CODE FOR THE PROBLEM STATEMENT
 // 2:29
 
 import java.util.Scanner;
