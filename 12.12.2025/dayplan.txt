@@ -1,1 +1,62 @@
+Two Dimensional Array
+~~~~~~~~~~~~~~~~~~~~~
+
+Given a ODD SQUARE MATRIX and the starting number check if it is a MAGIC SQUARE
+7 * 7
+
+    int [ ] [  ] ms = {
+                            {39,48,57,10,19,28,37}, 
+                            {47,56,16,18,27,36,38},
+                            {55,15,17,26,35,44,46},
+                            {14,23,25,34,43,45,54},
+                            {22,24,33,42,51,53,13},
+                            {30,32,41,50,52,12,21},
+                            {31,40,49,58,11,20,29}
+                             };
+ 
+  7 10
+
+----------------------------------------------------------------------------->100
+-------------------------------------------->67
+                                            ---------------------------------->
+
+
+
+
+
+
+
+ What is the check_sum ?
+    midVal * dim
+    midVal = startNum + ( (dim*dim)/2)
+
+
+                2 + ( 5*5)/2
+      14
+      10 + ( 49)/2
+
+
+Find sum of all diagonal elements
+https://leetcode.com/problems/matrix-diagonal-sum/description/
+Given a square matrix mat, return the sum of the matrix diagonals. Only include the sum of all the elements on the primary diagonal and all the elements on the secondary diagonal that are not part of the primary diagonal.
+Input: mat = [[1,2,3],
+              [4,5,6],
+              [7,8,9]]
+Output: 25
+Explanation: Diagonals sum: 1 + 5 + 9 + 3 + 7 = 25
+Notice that element mat[1][1] = 5 is counted only once.
+Example 2:
+Input: mat = [[1,1,1,1],
+              [1,1,1,1],
+              [1,1,1,1],
+              [1,1,1,1]]
+Output: 8
+Example 3: Input: mat = [[5]]  Output: 5
+ Constraints:  n == mat.length == mat[i].length
+1 <= n <= 100    1 <= mat[i][j] <= 100 
+
+
+
+
+
 
