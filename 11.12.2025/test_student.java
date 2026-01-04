@@ -1,3 +1,6 @@
+
+JAVA CODE FOR = operator and equals() function
+
 class student
 {
    String name;
