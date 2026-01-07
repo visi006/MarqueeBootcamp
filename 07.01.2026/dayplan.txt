@@ -1,1 +1,57 @@
+Keith
+
+Leetcode Super Ugly number
+
+Quicksort
+
+LeetCode Linked List
+
+Shell Sort
+
+Intro - stack
+
+
+HEAP in data structures
+complete binary tree
+min heap
+max heap
+formula for number of parents
+formula for left and right child index 
+
+
+
+(13+34)%7 => 5
+( (13%7) + (34%7) ) % 7
+    (6   +   6) % 7 => 5
+
+346573463476347634 + 638345876345876345 % 107
+      % 107        +      %107
+
+34687435678334547 + 236574835847757577) % 5743 0 to M-1
+
+
+(a+b)%M
+((a%M)+(b%M))%M
+
+
+
+
+
+
+(a-b)%M
+
+((a%M)-(b%m)+M)%M
+
+
+
+
+
+
+
+
+
+
+
+
+
 
